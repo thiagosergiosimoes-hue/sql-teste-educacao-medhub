@@ -6,10 +6,10 @@ Aqui você vai encontrar um **mini data warehouse fictício** de uma plataforma 
 
 ## Por onde começar
 
-1. **Fork** este repositório para sua conta no GitHub.
-2. Clone o fork no seu computador.
-3. Carregue o schema (SQL Server 2022 ou compatível):
-
-   ```bash
-   sqlcmd -S localhost -d master -i schema/setup_schema.sql
-   sqlcmd -S localhost -d medhub  -i schema/load_data.sql
+1. **Fork** este repositório e clone no seu computador.
+2. Importe os cinco arquivos CSV para um banco SQL *de sua preferência*  
+   (SQL Server, PostgreSQL, MySQL, SQLite… você escolhe).
+   - Fique livre para definir tipos de dados, PK/FK e índices como achar melhor.
+3. Resolva cada questão da pasta `questions/`.  
+   Crie um arquivo com o mesmo nome dentro da pasta **answers/** contendo somente seu `SELECT` (e, se precisar, CTEs/temp tables).
+4. Faça **commit + push** e abra um **pull request**
