@@ -6,7 +6,7 @@ Você encontrará aqui um pequeno _data warehouse_ fictício com dados de uma em
 
 > **O que esperamos**  
 > 1. **Consultas SQL** para responder às 5 questões listadas.  
-> 2. **Um painel simples** (mais de 3+ visuais) desenvolvido em Power BI, usando o arquivo `dashboard_kpis.csv`.
+> 2. **Um painel simples** (3+ visuais) desenvolvido em Power BI, usando o arquivo `dashboard_kpis.csv`.
 
 
 ## Por onde começar
