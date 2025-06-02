@@ -11,13 +11,17 @@ Você encontrará aqui um pequeno _data warehouse_ fictício com dados de uma em
 
 ## Por onde começar
 
-1. **Fork** este repositório e clone no seu computador.
-2. Importe os cinco arquivos CSV para um banco SQL *de sua preferência*  
-   (SQL Server, PostgreSQL, MySQL, SQLite… você escolhe).
-   - Fique livre para definir tipos de dados, PK/FK e índices como achar melhor.
-3. Resolva cada questão da pasta `questions/`.  
-   Crie um arquivo com o mesmo nome dentro da pasta **answers/** contendo somente seu `SELECT` (e, se precisar, CTEs/temp tables).
-4. Faça **commit + push** e abra um **pull request**
+1. **Fork** este repositório e clone no seu computador.  
+2. Importe os cinco CSVs principais no SGBD de sua preferência (Postgres, SQL Server, MySQL, SQLite…).  
+3. Copie cada bloco de `questions/all_questions.sql` para um novo arquivo com o mesmo nome dentro de **`answers/`** e escreva a sua query.  
+4. Abra `dashboard_kpis.csv` no Power BI e monte um painel com **pelo menos três visuais**, obrigatoriamente:  
+   - Inscrições por mês  
+   - Taxa de conclusão por mês  
+   - Um KPI livre (horas assistidas ou alunos ativos 30 d)  
+5. **Entregue o painel** (escolha 1 opção):  
+   **A.** Salve o `.pbix` em **`dashboard/`** e faça commit.  
+   **B.** Publique on-line, cole o link no Pull Request **e** anexe um print (`.png/.jpg`).  
+6. Faça **commit + push** de tudo e abra um **Pull Request**
 
 
 ### Sobre os principais CSVs:
